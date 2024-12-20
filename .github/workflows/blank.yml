@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRENCHES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+        }
+        header {
+            background-color: #0b3d91;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #142850;
+        }
+        nav a {
+            color: #dcdcdc;
+            text-decoration: none;
+            padding: 1em;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #27496d;
+        }
+        .hero {
+            text-align: center;
+            padding: 3em;
+            background-color: #27496d;
+            color: #fff;
+            font-size: 1.2em;
+        }
+        .section {
+            padding: 2em;
+            text-align: center;
+            background-color: #0c7b93;
+            margin: 1em 0;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #142850;
+            color: #dcdcdc;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Trenches</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Survive and Thrive in the Trenches</h2>
+        <p>Explore the depths and rise above challenges with determination.</p>
+    </div>
+    <section class="section" id="about">
+        <h3>About the Trenches</h3>
+        <p>Our mission is to guide you through the toughest terrains and help you emerge stronger.</p>
+    </section>
+    <section class="section" id="services">
+        <h3>Our Support</h3>
+        <p>We offer tools, resources, and strategies to navigate the trenches of life and work.</p>
+    </section>
+    <section class="section" id="contact">
+        <h3>Reach Out</h3>
+        <p>Contact us to join forces and conquer the trenches together.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 TRENCHES. All rights reserved.</p>
+    </footer>
+</body>
+</html>
